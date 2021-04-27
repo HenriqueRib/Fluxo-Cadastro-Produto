@@ -13,13 +13,15 @@
                 <li class="list-group-item col col-2"> Preço R$ {{ $produtos->preco }}.</li>
             @endif
         </div>
-        <button class="btn btn-primary mt-2 mb-2">
-            <a href="{{asset('storage/'. $produtos->imagem)}}" style="color: white; text-decoration: none">
-                <i class="far fa-images"></i>
-                Ver imagem do produto
-            </a>
-        </button>
-
+        <div class="row">
+            <span class="col col-5"></span>
+            <button class="col col-2 btn btn-primary mt-2 mb-2">
+                <a href="{{asset('storage/'. $produtos->imagem)}}" style="color: white; text-decoration: none">
+                    <i class="far fa-images"></i>
+                    Ver imagem
+                </a>
+            </button>
+        </div>
         @if( !empty($perguntas->tipo_veiculo))
             <br>
             <h2>Perguntas do  produto </h2>
