@@ -1,11 +1,11 @@
-##Fluxo Cadastro Produto
+## Fluxo Cadastro Produto
 
 
-##Instalar
+## Instalar
 <br> php >7.3.*
 <br> Composer
 
-##Passo-a-Passo
+## Passo-a-Passo
 <br> git clone https://github.com/HenriqueRib/Fluxo-Cadastro-Produto
 <br> cd Fluxo-Cadastro-Produto
 <br> composer install
@@ -14,6 +14,6 @@
 <br> php artisan storage:link
 <br> php artisan serve
 
-##Acessar
+## Acessar
 <br> http://127.0.0.1:8000/produto
 
